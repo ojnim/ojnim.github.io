@@ -30,7 +30,7 @@ git reset
 
 git revert
 
-
+git branch -d (branch name)
 
 [GitHub Flow]
 Create a branch
