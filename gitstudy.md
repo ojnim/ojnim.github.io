@@ -32,11 +32,15 @@ git revert
 
 git branch -d (branch name)
 
+
 [GitHub Flow]
+
 Create a branch
 -add commits 
+
 Open a Pull Request
 -discuss and review
+
 Merge and Deploy
 
 
