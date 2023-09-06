@@ -43,6 +43,14 @@ GRANT, DENY, REVOKE
 
 
 
+[MongoDB Atlas]
+
+Developer data platform/ DB as a service
+
+-ensure data redundancy and high availability
+
+Options: serverless & cluster
+
 [MongoDB]
 
 ObjectId(<value>)
