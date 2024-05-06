@@ -21,6 +21,13 @@ header, section, footer {
     border-radius: 8px;
 }
 
+.head {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background: #0077cc;
+}
+
 h1, h2 {
     color: #333;
 }
