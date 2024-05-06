@@ -1,4 +1,4 @@
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,32 +13,57 @@ body {
     color: #333;
 }
 
-header, section, footer {
-    margin: 10px auto;
-    padding: 20px;
-    max-width: 800px;
-    background: white;
-    border-radius: 8px;
-}
-
 .head {
-    margin: 10px;
-    width: 100px;
-    height: 50px;
-    background: #0077cc;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
 }
 
-h1, h2 {
+.menu_list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu_item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left_sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.personal_link_list {
+    list-style: none;
+    padding: 0;
+}
+
+.personal_link_item {
+    margin-bottom: 5px;
+}
+
+.page {
+    flex: 3;
+    padding: 20px;
+}
+
+.page div {
+    margin-bottom: 20px;
+}
+
+.page h2 {
+    margin: 0;
     color: #333;
 }
-
-a {
-    color: #0077cc;
-}
-
-footer {
-    text-align: center;
-    font-size: 0.8em;
-}
-
-/* Additional styling can be added here */
