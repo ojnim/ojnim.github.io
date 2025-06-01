@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/ojnim.github.io/', // Important for GitHub Pages!
+  base: '/', // Important for GitHub Pages!
   root: 'src',
   build: {
     outDir: '../dist',
