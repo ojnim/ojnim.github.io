@@ -14,7 +14,10 @@ export function injectHeader() {
 export function injectFooter() {
   document.body.insertAdjacentHTML('beforeend', `
     <footer>
-      <p>© 2025 Your Name</p>
+      <p>© Copyright Seungmin Cho | Last updated: June 2025</p>
     </footer>
   `);
 }
+
+injectHeader();
+injectFooter();
