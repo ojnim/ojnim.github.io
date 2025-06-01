@@ -18,6 +18,3 @@ export function injectFooter() {
     </footer>
   `);
 }
-
-injectHeader();
-injectFooter();
