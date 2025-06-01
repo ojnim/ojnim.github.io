@@ -4,36 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Seungmin Cho's Home Page</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/src/shared/style.css">
+        <script type="module" src="/src/main.ts"></script>
     </head>
     <body>
-        <div class="head">
-            <div class="head_menu">
-                <ul class="menu_list">
-                    <li class="menu_item">
-                        <a href="https://ojnim.github.io">Home</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="project.html">Projects</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="research.html">Researches</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li class="menu_item">
-                        <a href="resumecv.html">Resume/CV</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <div class = "main">
             <div class = "left_sidebar">
                 <div class="personal_photo"></div>
                 <div class="Personal_info">
+                    <h2>Seungmin(Min) Cho</h2>
                     <img src="profile.png" style="width:190px;height:250px;">
-                    <h3>Seungmin(Min) Cho</h3>
                     <p>Boston University</p> 
                     <p>CS Major Linguistics Minor</p>
                 </div>
@@ -49,25 +29,12 @@
                 </div>
             </div>
             <div class = "page">
-                <div>
-                    <p>I enjoy developing tools that make my life more efficient.</p>
-                    <h2>Interest</h2>
-                    <p>In general, I'm interested in understanding the natural language in the perspective of cognitive science and neuroscience.</p>
-                    <p>#NLP, #Computational_Linguistics, #Cognitive_Science</p>
-                </div>
-                <div>
-                    <h2>Skills</h2>
-                    <p>Python | NumPy, Pandas, Matplotlib, seabron, nltk, sklearn, PyTorch</p>
-                    <p>Javascript/Typescript | React, Node, Next</p>
-                    <p>DB | MongoDB, DynamoDB, Firebase</p>
-                    <p>Natural Languages | Korean, English, Japanese, French</p>
-                </div>
-                <div>
-                    <h2>Undergraduate Coursework</h2>
-                    <p>Computer Science | Discrete Math, Linear Algebra, Probability, Computer System, Foundation of Data Science, Database Management System</p>
-                    <p>Linguistics | Syntax, Semantics, Computational Linguistics, Cognitive Science and Language</p>
-                </div>
             </div>
+            <script type="module">
+                import { injectHeader, injectFooter } from './src/shared/layout.ts';
+                injectHeader();
+                injectFooter();
+            </script>
         </div>
     </body>
 </html>
