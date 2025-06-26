@@ -12,9 +12,9 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'index.html'),
-        experience: path.resolve(__dirname, 'experience.html'),
-        blog: path.resolve(__dirname, 'blog.html'),
+        main: path.resolve(__dirname, 'src/index.html'),
+        experience: path.resolve(__dirname, 'src/experience.html'),
+        blog: path.resolve(__dirname, 'src/blog.html'),
       },
       output: {
         assetFileNames: 'assets/[name]-[hash][extname]' // Hashing for cache busting
