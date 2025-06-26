@@ -3,9 +3,8 @@ export function injectHeader() {
     <header>
       <nav>
         <a href="/">Home</a>
+        <a href="/experience.html">Experience</a>
         <a href="/blog.html">Blog</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/news.html">News</a>
       </nav>
     </header>
   `);
