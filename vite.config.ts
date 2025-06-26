@@ -11,7 +11,11 @@ export default defineConfig({
     minify: 'esbuild', // Use esbuild for minification (default)
     assetsDir: 'assets',
     rollupOptions: {
-      input: path.resolve(__dirname, 'src/index.html'),
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        experience: path.resolve(__dirname, 'experience.html'),
+        blog: path.resolve(__dirname, 'blog.html'),
+      },
       output: {
         assetFileNames: 'assets/[name]-[hash][extname]' // Hashing for cache busting
       }
