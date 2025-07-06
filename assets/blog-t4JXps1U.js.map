@@ -1,1 +1,0 @@
-{"version":3,"file":"blog-t4JXps1U.js","sources":["../../src/pages/blog.ts"],"sourcesContent":["import { injectHeader, injectFooter } from '../shared/layout';\n\ninjectHeader();\ninjectFooter();"],"names":["injectHeader","injectFooter"],"mappings":"2CAEAA,EAAa,EACbC,EAAa"}
